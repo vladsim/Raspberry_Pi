@@ -17,3 +17,8 @@ After reboot run `sudo raspi-config` from the terminal.
 Do the necessary configuration and reboot.  
 Run `sudo apt-get update && sudo apt-get dist-upgrade -y` and reboot.  
 Start working and have fun!
+  
+### Issues
+Issue with numpy and pandas libraries
+```> sudo apt-get install libatlas-base-dev```  
+Source: https://github.com/numpy/numpy/issues/14772  
